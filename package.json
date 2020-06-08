@@ -1,0 +1,22 @@
+{
+  "name": "graphql-file-parser",
+  "version": "1.0.0",
+  "description": "Recursively searches a directory for .js and .jsx files, finds Apollo gql template literal tags, and creates an Insomnia import file.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node . --directory='../web-app' --url='http://localhost:5000'"
+  },
+  "keywords": [
+    "node",
+    "apollo",
+    "insomnia",
+    "javascript"
+  ],
+  "author": "John Livingston",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "^2.0.5",
+    "uuid": "^8.1.0",
+    "yargs": "^15.3.1"
+  }
+}
